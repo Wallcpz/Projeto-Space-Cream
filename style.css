@@ -19,6 +19,29 @@
     --fc-heading: #FFFFFF;
     --fc-main: #4A4E69
 }
+@media  (min-width: 700px) {
+    header {
+        height: 720px;
+        
+        
+    }
+
+
+    main p {
+        display:  none
+    }
+
+    
+}
+
+@media (max-width: 700px) {
+    header p {
+        display: none
+    }
+}
+
+
+
 
 
 
@@ -120,6 +143,7 @@ main p {
 
 }
 
+
 @keyframes up {
     0% {
         opacity: 0;
@@ -143,4 +167,5 @@ main p {
         transform: translateY(0);
     }
 }
+
 
